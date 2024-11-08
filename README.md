@@ -5,12 +5,12 @@
 
 ## Integrantes:
 
-Anderson Henrique
-Anna Carolinne
-Gabriel França
-Lucas Demetrio
-Luiz Gustavo
-Robson Alves
+Anderson Henrique  
+Anna Carolinne  
+Gabriel França  
+Lucas Demetrio  
+Luiz Gustavo  
+Robson Alves  
 
 ## Categoria:
 
