@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03D6A3052CE40B5E00764BAC /* tela_06App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D6A3042CE40B5E00764BAC /* tela_06App.swift */; };
-		03D6A3072CE40B5E00764BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D6A3062CE40B5E00764BAC /* ContentView.swift */; };
-		03D6A3092CE40B6000764BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D6A3082CE40B6000764BAC /* Assets.xcassets */; };
-		03D6A30C2CE40B6000764BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D6A30B2CE40B6000764BAC /* Preview Assets.xcassets */; };
-		03D6A3142CE4244A00764BAC /* Jomhuria-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03D6A3132CE4244A00764BAC /* Jomhuria-Regular.ttf */; };
+		47AB4AD62CE2CD6200C6C921 /* iPhoneSeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB4AD52CE2CD6200C6C921 /* iPhoneSeApp.swift */; };
+		47AB4AD82CE2CD6200C6C921 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB4AD72CE2CD6200C6C921 /* ContentView.swift */; };
+		47AB4ADA2CE2CD6400C6C921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AB4AD92CE2CD6400C6C921 /* Assets.xcassets */; };
+		47AB4ADD2CE2CD6400C6C921 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AB4ADC2CE2CD6400C6C921 /* Preview Assets.xcassets */; };
+		47E8B0E82CE570B600521D87 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8B0E72CE570B600521D87 /* Game.swift */; };
+		47E8B0EA2CE570E800521D87 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8B0E92CE570E800521D87 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03D6A3012CE40B5E00764BAC /* tela_06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tela_06.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		03D6A3042CE40B5E00764BAC /* tela_06App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tela_06App.swift; sourceTree = "<group>"; };
-		03D6A3062CE40B5E00764BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		03D6A3082CE40B6000764BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03D6A30B2CE40B6000764BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		03D6A3132CE4244A00764BAC /* Jomhuria-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jomhuria-Regular.ttf"; sourceTree = "<group>"; };
-		03D6A3152CE4247700764BAC /* tela-06-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "tela-06-Info.plist"; sourceTree = SOURCE_ROOT; };
+		47AB4AD22CE2CD6200C6C921 /* iPhoneSe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneSe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AB4AD52CE2CD6200C6C921 /* iPhoneSeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneSeApp.swift; sourceTree = "<group>"; };
+		47AB4AD72CE2CD6200C6C921 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47AB4AD92CE2CD6400C6C921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47AB4ADC2CE2CD6400C6C921 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47E8B0E72CE570B600521D87 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		47E8B0E92CE570E800521D87 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03D6A2FE2CE40B5E00764BAC /* Frameworks */ = {
+		47AB4ACF2CE2CD6200C6C921 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,87 +36,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03D6A2F82CE40B5E00764BAC = {
+		47AB4AC92CE2CD6200C6C921 = {
 			isa = PBXGroup;
 			children = (
-				03D6A3032CE40B5E00764BAC /* tela_06 */,
-				03D6A3022CE40B5E00764BAC /* Products */,
+				47AB4AD42CE2CD6200C6C921 /* iPhoneSe */,
+				47AB4AD32CE2CD6200C6C921 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		03D6A3022CE40B5E00764BAC /* Products */ = {
+		47AB4AD32CE2CD6200C6C921 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03D6A3012CE40B5E00764BAC /* tela_06.app */,
+				47AB4AD22CE2CD6200C6C921 /* iPhoneSe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03D6A3032CE40B5E00764BAC /* tela_06 */ = {
+		47AB4AD42CE2CD6200C6C921 /* iPhoneSe */ = {
 			isa = PBXGroup;
 			children = (
-				03D6A3152CE4247700764BAC /* tela-06-Info.plist */,
-				03D6A3042CE40B5E00764BAC /* tela_06App.swift */,
-				03D6A3062CE40B5E00764BAC /* ContentView.swift */,
-				03D6A3122CE423E900764BAC /* custom fonts */,
-				03D6A3082CE40B6000764BAC /* Assets.xcassets */,
-				03D6A30A2CE40B6000764BAC /* Preview Content */,
+				47E8B0E92CE570E800521D87 /* ViewModel.swift */,
+				47AB4AD52CE2CD6200C6C921 /* iPhoneSeApp.swift */,
+				47E8B0E72CE570B600521D87 /* Game.swift */,
+				47AB4AD72CE2CD6200C6C921 /* ContentView.swift */,
+				47AB4AD92CE2CD6400C6C921 /* Assets.xcassets */,
+				47AB4ADB2CE2CD6400C6C921 /* Preview Content */,
 			);
-			path = tela_06;
+			path = iPhoneSe;
 			sourceTree = "<group>";
 		};
-		03D6A30A2CE40B6000764BAC /* Preview Content */ = {
+		47AB4ADB2CE2CD6400C6C921 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				03D6A30B2CE40B6000764BAC /* Preview Assets.xcassets */,
+				47AB4ADC2CE2CD6400C6C921 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		03D6A3122CE423E900764BAC /* custom fonts */ = {
-			isa = PBXGroup;
-			children = (
-				03D6A3132CE4244A00764BAC /* Jomhuria-Regular.ttf */,
-			);
-			path = "custom fonts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03D6A3002CE40B5E00764BAC /* tela_06 */ = {
+		47AB4AD12CE2CD6200C6C921 /* iPhoneSe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03D6A30F2CE40B6000764BAC /* Build configuration list for PBXNativeTarget "tela_06" */;
+			buildConfigurationList = 47AB4AE02CE2CD6400C6C921 /* Build configuration list for PBXNativeTarget "iPhoneSe" */;
 			buildPhases = (
-				03D6A2FD2CE40B5E00764BAC /* Sources */,
-				03D6A2FE2CE40B5E00764BAC /* Frameworks */,
-				03D6A2FF2CE40B5E00764BAC /* Resources */,
+				47AB4ACE2CE2CD6200C6C921 /* Sources */,
+				47AB4ACF2CE2CD6200C6C921 /* Frameworks */,
+				47AB4AD02CE2CD6200C6C921 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = tela_06;
-			productName = tela_06;
-			productReference = 03D6A3012CE40B5E00764BAC /* tela_06.app */;
+			name = iPhoneSe;
+			productName = iPhoneSe;
+			productReference = 47AB4AD22CE2CD6200C6C921 /* iPhoneSe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		03D6A2F92CE40B5E00764BAC /* Project object */ = {
+		47AB4ACA2CE2CD6200C6C921 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					03D6A3002CE40B5E00764BAC = {
+					47AB4AD12CE2CD6200C6C921 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 03D6A2FC2CE40B5E00764BAC /* Build configuration list for PBXProject "tela_06" */;
+			buildConfigurationList = 47AB4ACD2CE2CD6200C6C921 /* Build configuration list for PBXProject "iPhoneSe" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,43 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 03D6A2F82CE40B5E00764BAC;
-			productRefGroup = 03D6A3022CE40B5E00764BAC /* Products */;
+			mainGroup = 47AB4AC92CE2CD6200C6C921;
+			productRefGroup = 47AB4AD32CE2CD6200C6C921 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03D6A3002CE40B5E00764BAC /* tela_06 */,
+				47AB4AD12CE2CD6200C6C921 /* iPhoneSe */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03D6A2FF2CE40B5E00764BAC /* Resources */ = {
+		47AB4AD02CE2CD6200C6C921 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D6A30C2CE40B6000764BAC /* Preview Assets.xcassets in Resources */,
-				03D6A3092CE40B6000764BAC /* Assets.xcassets in Resources */,
-				03D6A3142CE4244A00764BAC /* Jomhuria-Regular.ttf in Resources */,
+				47AB4ADD2CE2CD6400C6C921 /* Preview Assets.xcassets in Resources */,
+				47AB4ADA2CE2CD6400C6C921 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03D6A2FD2CE40B5E00764BAC /* Sources */ = {
+		47AB4ACE2CE2CD6200C6C921 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D6A3072CE40B5E00764BAC /* ContentView.swift in Sources */,
-				03D6A3052CE40B5E00764BAC /* tela_06App.swift in Sources */,
+				47AB4AD82CE2CD6200C6C921 /* ContentView.swift in Sources */,
+				47E8B0EA2CE570E800521D87 /* ViewModel.swift in Sources */,
+				47AB4AD62CE2CD6200C6C921 /* iPhoneSeApp.swift in Sources */,
+				47E8B0E82CE570B600521D87 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		03D6A30D2CE40B6000764BAC /* Debug */ = {
+		47AB4ADE2CE2CD6400C6C921 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		03D6A30E2CE40B6000764BAC /* Release */ = {
+		47AB4ADF2CE2CD6400C6C921 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,17 +272,16 @@
 			};
 			name = Release;
 		};
-		03D6A3102CE40B6000764BAC /* Debug */ = {
+		47AB4AE12CE2CD6400C6C921 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tela_06/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneSe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "tela-06-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "anderson-henriq.tela-06";
+				PRODUCT_BUNDLE_IDENTIFIER = AnnaCarolinne.iPhoneSe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,17 +300,16 @@
 			};
 			name = Debug;
 		};
-		03D6A3112CE40B6000764BAC /* Release */ = {
+		47AB4AE22CE2CD6400C6C921 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tela_06/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iPhoneSe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "tela-06-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -328,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "anderson-henriq.tela-06";
+				PRODUCT_BUNDLE_IDENTIFIER = AnnaCarolinne.iPhoneSe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,25 +331,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03D6A2FC2CE40B5E00764BAC /* Build configuration list for PBXProject "tela_06" */ = {
+		47AB4ACD2CE2CD6200C6C921 /* Build configuration list for PBXProject "iPhoneSe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03D6A30D2CE40B6000764BAC /* Debug */,
-				03D6A30E2CE40B6000764BAC /* Release */,
+				47AB4ADE2CE2CD6400C6C921 /* Debug */,
+				47AB4ADF2CE2CD6400C6C921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03D6A30F2CE40B6000764BAC /* Build configuration list for PBXNativeTarget "tela_06" */ = {
+		47AB4AE02CE2CD6400C6C921 /* Build configuration list for PBXNativeTarget "iPhoneSe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03D6A3102CE40B6000764BAC /* Debug */,
-				03D6A3112CE40B6000764BAC /* Release */,
+				47AB4AE12CE2CD6400C6C921 /* Debug */,
+				47AB4AE22CE2CD6400C6C921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 03D6A2F92CE40B5E00764BAC /* Project object */;
+	rootObject = 47AB4ACA2CE2CD6200C6C921 /* Project object */;
 }

@@ -1,14 +1,14 @@
 //
-//  tela_06App.swift
-//  tela_06
+//  iPhoneSeApp.swift
+//  iPhoneSe
 //
-//  Created by Turma02-1 on 12/11/24.
+//  Created by Turma02-20 on 11/11/24.
 //
 
 import SwiftUI
 
 @main
-struct tela_06App: App {
+struct iPhoneSeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
