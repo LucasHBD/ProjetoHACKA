@@ -16,7 +16,7 @@ Robson Alves
 
 Jogos
 
-## Desafio;
+## Desafio:  
 
 Informações difusas sobre promoções em plataforma de jogos online
 
