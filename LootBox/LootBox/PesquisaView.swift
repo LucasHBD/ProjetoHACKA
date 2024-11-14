@@ -7,7 +7,6 @@ struct PesquisaView: View {
     
     var body: some View {
         ZStack {
-            // Imagem de fundo
             Image("background")
                 .resizable()
                 .ignoresSafeArea()
@@ -16,7 +15,7 @@ struct PesquisaView: View {
                     Spacer()
                     Spacer()
                     Image("controle")
-                        .padding(.leading)
+                        .padding(.leading, 30)
                         .padding(.bottom)
                         .ignoresSafeArea()
                         .offset(x: 20, y:0)
@@ -37,16 +36,13 @@ struct PesquisaView: View {
                 }
                 
                 VStack {
-                    // Título da tela, posicionado mais próximo da barra de pesquisa
                     Text("Pesquisa")
-//                        .font(.title)
                         .font(.custom("Jomhuria-Regular", size: 54 ))
 
                         .fontWeight(.bold)
                         .foregroundColor(.white)
-                        .padding(.top, 10) // Reduzido o padding para aproximar do topo
+                        .padding(.top, 10)
                     
-                    // Barra de pesquisa estilizada
                     HStack {
                         // Ícone de lupa
                         Image(systemName: "magnifyingglass")
