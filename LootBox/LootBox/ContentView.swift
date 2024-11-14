@@ -22,7 +22,7 @@ struct ContentView: View {
                     Label("Tab 1", systemImage: "house.fill")
                 }
 
-                BuscaView()
+                PesquisaView()
                     .tabItem {
                         Label("Tab 2", systemImage: "magnifyingglass")
                     }

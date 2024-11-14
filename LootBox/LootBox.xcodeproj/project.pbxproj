@@ -13,11 +13,14 @@
 		476126912CE2D04C00A50CEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476126902CE2D04C00A50CEE /* Preview Assets.xcassets */; };
 		476126982CE40D5200A50CEE /* games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126972CE40D5200A50CEE /* games.swift */; };
 		4761269A2CE40E3100A50CEE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126992CE40E3100A50CEE /* ViewModel.swift */; };
-		476126A92CE56B6200A50CEE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126A82CE56B6200A50CEE /* HomeView.swift */; };
 		476126AD2CE56C5F00A50CEE /* WishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126AC2CE56C5F00A50CEE /* WishListView.swift */; };
 		476126AF2CE56FEC00A50CEE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126AE2CE56FEC00A50CEE /* MenuView.swift */; };
 		476126B12CE5714300A50CEE /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126B02CE5714300A50CEE /* PerfilView.swift */; };
-		476126B32CE573B600A50CEE /* BuscaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126B22CE573B600A50CEE /* BuscaView.swift */; };
+		A7E14D942CE6B75C00846845 /* PesquisaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E14D932CE6B75C00846845 /* PesquisaView.swift */; };
+		A7E14D982CE6B86E00846845 /* Jomhuria-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7E14D962CE6B86E00846845 /* Jomhuria-Regular.ttf */; };
+		A7E14D9A2CE6B91F00846845 /* ViewModelFavoritos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E14D992CE6B91F00846845 /* ViewModelFavoritos.swift */; };
+		A7E14D9C2CE6B9DE00846845 /* ViewModelRecentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E14D9B2CE6B9DE00846845 /* ViewModelRecentes.swift */; };
+		A7E14D9E2CE6BA8A00846845 /* FuncaoPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E14D9D2CE6BA8A00846845 /* FuncaoPost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +32,15 @@
 		476126902CE2D04C00A50CEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		476126972CE40D5200A50CEE /* games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = games.swift; sourceTree = "<group>"; };
 		476126992CE40E3100A50CEE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		476126A82CE56B6200A50CEE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		476126AC2CE56C5F00A50CEE /* WishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListView.swift; sourceTree = "<group>"; };
 		476126AE2CE56FEC00A50CEE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		476126B02CE5714300A50CEE /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
-		476126B22CE573B600A50CEE /* BuscaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaView.swift; sourceTree = "<group>"; };
+		A7E14D932CE6B75C00846845 /* PesquisaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PesquisaView.swift; path = LootBox/PesquisaView.swift; sourceTree = SOURCE_ROOT; };
+		A7E14D952CE6B7B800846845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A7E14D962CE6B86E00846845 /* Jomhuria-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jomhuria-Regular.ttf"; sourceTree = "<group>"; };
+		A7E14D992CE6B91F00846845 /* ViewModelFavoritos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFavoritos.swift; sourceTree = "<group>"; };
+		A7E14D9B2CE6B9DE00846845 /* ViewModelRecentes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelRecentes.swift; sourceTree = "<group>"; };
+		A7E14D9D2CE6BA8A00846845 /* FuncaoPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncaoPost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +57,7 @@
 		4761267C2CE2D04A00A50CEE = {
 			isa = PBXGroup;
 			children = (
-				476126B22CE573B600A50CEE /* BuscaView.swift */,
+				A7E14D9D2CE6BA8A00846845 /* FuncaoPost.swift */,
 				476126B02CE5714300A50CEE /* PerfilView.swift */,
 				476126AE2CE56FEC00A50CEE /* MenuView.swift */,
 				476126872CE2D04A00A50CEE /* LootBox */,
@@ -69,13 +76,17 @@
 		476126872CE2D04A00A50CEE /* LootBox */ = {
 			isa = PBXGroup;
 			children = (
+				A7E14D972CE6B86E00846845 /* font */,
+				A7E14D952CE6B7B800846845 /* Info.plist */,
 				476126AC2CE56C5F00A50CEE /* WishListView.swift */,
-				476126A82CE56B6200A50CEE /* HomeView.swift */,
 				476126882CE2D04A00A50CEE /* LootBoxApp.swift */,
 				4761268A2CE2D04A00A50CEE /* ContentView.swift */,
 				4761268C2CE2D04C00A50CEE /* Assets.xcassets */,
 				476126992CE40E3100A50CEE /* ViewModel.swift */,
+				A7E14D9B2CE6B9DE00846845 /* ViewModelRecentes.swift */,
+				A7E14D992CE6B91F00846845 /* ViewModelFavoritos.swift */,
 				476126972CE40D5200A50CEE /* games.swift */,
+				A7E14D932CE6B75C00846845 /* PesquisaView.swift */,
 				4761268E2CE2D04C00A50CEE /* LootBox.entitlements */,
 				4761268F2CE2D04C00A50CEE /* Preview Content */,
 			);
@@ -88,6 +99,14 @@
 				476126902CE2D04C00A50CEE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7E14D972CE6B86E00846845 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				A7E14D962CE6B86E00846845 /* Jomhuria-Regular.ttf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +169,7 @@
 			files = (
 				476126912CE2D04C00A50CEE /* Preview Assets.xcassets in Resources */,
 				4761268D2CE2D04C00A50CEE /* Assets.xcassets in Resources */,
+				A7E14D982CE6B86E00846845 /* Jomhuria-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,15 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				476126A92CE56B6200A50CEE /* HomeView.swift in Sources */,
 				476126AF2CE56FEC00A50CEE /* MenuView.swift in Sources */,
 				476126982CE40D5200A50CEE /* games.swift in Sources */,
 				4761268B2CE2D04A00A50CEE /* ContentView.swift in Sources */,
+				A7E14D9A2CE6B91F00846845 /* ViewModelFavoritos.swift in Sources */,
+				A7E14D942CE6B75C00846845 /* PesquisaView.swift in Sources */,
+				A7E14D9C2CE6B9DE00846845 /* ViewModelRecentes.swift in Sources */,
 				4761269A2CE40E3100A50CEE /* ViewModel.swift in Sources */,
 				476126AD2CE56C5F00A50CEE /* WishListView.swift in Sources */,
+				A7E14D9E2CE6BA8A00846845 /* FuncaoPost.swift in Sources */,
 				476126B12CE5714300A50CEE /* PerfilView.swift in Sources */,
 				476126892CE2D04A00A50CEE /* LootBoxApp.swift in Sources */,
-				476126B32CE573B600A50CEE /* BuscaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +322,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LootBox/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LootBox/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -336,6 +359,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LootBox/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LootBox/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
