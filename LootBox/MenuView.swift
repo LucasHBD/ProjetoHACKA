@@ -9,40 +9,38 @@ import SwiftUI
 
 struct MenuView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        import SwiftUI
         ZStack {
             Image("background")
                 .resizable()
-                .scaledToFill()
                 .ignoresSafeArea()
-
             VStack {
                 VStack {
-                    HStack {
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                        
+                    HStack{
+                        Spacer()
+                        Spacer()
                         Image("controle")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 100, height: 100)
-                            Spacer()
-                        
+                            .padding(.leading, 30)
+                            .padding(.bottom)
+                            .ignoresSafeArea()
+                            .offset(x: 20, y:0)
+                        Spacer()
                         Image("sino")
                             .resizable()
-                            .scaledToFill()
-                            .frame(width: 50, height: 50)
-                        
+                            .frame(width:30, height: 30)
+                            .ignoresSafeArea()
+                            .padding(.bottom, 50)
+                            .offset(x:20, y: -12.5)
                         Image("perfil")
                             .resizable()
-                            .scaledToFill()
-                            .frame(width: 50, height: 50)
+                            .frame(width:30, height: 30)
+                            .ignoresSafeArea()
+                            .padding(.bottom, 50)
+                            .offset(x:30, y: -12.5)
+                        Spacer()
                     }
                     .padding(.horizontal)
                 }
-
+                
                 VStack {
                     Text("Novidades")
                         .font(.title)
@@ -68,8 +66,7 @@ struct MenuView: View {
                         .font(.title)
                         .foregroundColor(.white)
                         .padding()
-
-                    // Textos para as ofertas
+                    
                     ScrollView(.vertical, showsIndicators: true) {
                         ForEach(0..<20) { _ in
                             Text("  ...exemplo de jogo na promoção...  ")
@@ -77,10 +74,9 @@ struct MenuView: View {
                                 .scaledToFit()
                                 .background(Color.rose.opacity(100))
                                 .cornerRadius(05)
-                                Spacer()
+                            Spacer()
                         }
                     }
-
                     Spacer() // Para garantir que a parte inferior da tela seja preenchida
                 }
             }
@@ -90,11 +86,4 @@ struct MenuView: View {
 
 #Preview {
     ContentView()
-}
-
-    }
-}
-
-#Preview {
-    MenuView()
 }
