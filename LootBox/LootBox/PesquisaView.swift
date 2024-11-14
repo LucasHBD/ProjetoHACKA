@@ -39,7 +39,9 @@ struct PesquisaView: View {
                 VStack {
                     // Título da tela, posicionado mais próximo da barra de pesquisa
                     Text("Pesquisa")
-                        .font(.title)
+//                        .font(.title)
+                        .font(.custom("Jomhuria-Regular", size: 54 ))
+
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                         .padding(.top, 10) // Reduzido o padding para aproximar do topo
