@@ -18,6 +18,7 @@
 		476126AF2CE56FEC00A50CEE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126AE2CE56FEC00A50CEE /* MenuView.swift */; };
 		476126B12CE5714300A50CEE /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126B02CE5714300A50CEE /* PerfilView.swift */; };
 		476126B32CE573B600A50CEE /* BuscaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126B22CE573B600A50CEE /* BuscaView.swift */; };
+		476126B52CE5758C00A50CEE /* PerfilUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126B42CE5758C00A50CEE /* PerfilUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		476126AE2CE56FEC00A50CEE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		476126B02CE5714300A50CEE /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
 		476126B22CE573B600A50CEE /* BuscaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaView.swift; sourceTree = "<group>"; };
+		476126B42CE5758C00A50CEE /* PerfilUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +52,6 @@
 		4761267C2CE2D04A00A50CEE = {
 			isa = PBXGroup;
 			children = (
-				476126B22CE573B600A50CEE /* BuscaView.swift */,
-				476126B02CE5714300A50CEE /* PerfilView.swift */,
-				476126AE2CE56FEC00A50CEE /* MenuView.swift */,
 				476126872CE2D04A00A50CEE /* LootBox */,
 				476126862CE2D04A00A50CEE /* Products */,
 			);
@@ -69,6 +68,10 @@
 		476126872CE2D04A00A50CEE /* LootBox */ = {
 			isa = PBXGroup;
 			children = (
+				476126B42CE5758C00A50CEE /* PerfilUserView.swift */,
+				476126B22CE573B600A50CEE /* BuscaView.swift */,
+				476126B02CE5714300A50CEE /* PerfilView.swift */,
+				476126AE2CE56FEC00A50CEE /* MenuView.swift */,
 				476126AC2CE56C5F00A50CEE /* WishListView.swift */,
 				476126A82CE56B6200A50CEE /* HomeView.swift */,
 				476126882CE2D04A00A50CEE /* LootBoxApp.swift */,
@@ -167,6 +170,7 @@
 				4761269A2CE40E3100A50CEE /* ViewModel.swift in Sources */,
 				476126AD2CE56C5F00A50CEE /* WishListView.swift in Sources */,
 				476126B12CE5714300A50CEE /* PerfilView.swift in Sources */,
+				476126B52CE5758C00A50CEE /* PerfilUserView.swift in Sources */,
 				476126892CE2D04A00A50CEE /* LootBoxApp.swift in Sources */,
 				476126B32CE573B600A50CEE /* BuscaView.swift in Sources */,
 			);
