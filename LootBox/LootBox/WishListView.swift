@@ -45,7 +45,8 @@ struct WishListView: View {
                         Spacer()
                     }
                     Text("Desejados")
-                        .font(.title)
+//                        .font(.title)
+                        .font(.custom("Jomhuria-Regular", size: 54 ))
                         .bold()
                         .foregroundStyle(.white)
                         .offset(x: 0, y: -30)
@@ -75,5 +76,3 @@ struct WishListView: View {
 #Preview {
     ContentView()
 }
-
-
