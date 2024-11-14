@@ -14,7 +14,6 @@ struct MenuView: View {
                 .resizable()
                 .ignoresSafeArea()
             VStack {
-                VStack {
                     HStack{
                         Spacer()
                         Spacer()
@@ -37,17 +36,14 @@ struct MenuView: View {
                             .padding(.bottom, 50)
                             .offset(x:30, y: -12.5)
                         Spacer()
-                    }
-                    .padding(.horizontal)
                 }
                 
                 VStack {
                     Text("Novidades")
-//                        .font(.title)
                         .foregroundColor(.white)
                         .padding()
                         .font(.custom("Jomhuria-Regular", size: 54 ))
-
+                    
                     
                     ScrollView(.horizontal, showsIndicators: true) {
                         HStack(spacing: 3) {
@@ -64,11 +60,10 @@ struct MenuView: View {
                     Spacer()
                     
                     Text("Ofertas")
-//                        .font(.title)
                         .foregroundColor(.white)
                         .padding()
                         .font(.custom("Jomhuria-Regular", size: 54 ))
-
+                    
                     ScrollView(.vertical, showsIndicators: true) {
                         ForEach(0..<20) { _ in
                             Text("  ...exemplo de jogo na promoção...  ")
@@ -80,7 +75,7 @@ struct MenuView: View {
                             Spacer()
                         }
                     }
-                    Spacer() 
+                    Spacer()
                 }
             }
         }
