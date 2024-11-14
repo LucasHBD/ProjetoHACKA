@@ -43,10 +43,11 @@ struct MenuView: View {
                 
                 VStack {
                     Text("Novidades")
-                        .font(.title)
+//                        .font(.title)
                         .foregroundColor(.white)
                         .padding()
-                        .cornerRadius(10)
+                        .font(.custom("Jomhuria-Regular", size: 54 ))
+
                     
                     ScrollView(.horizontal, showsIndicators: true) {
                         HStack(spacing: 3) {
@@ -63,10 +64,11 @@ struct MenuView: View {
                     Spacer()
                     
                     Text("Ofertas")
-                        .font(.title)
+//                        .font(.title)
                         .foregroundColor(.white)
                         .padding()
-                    
+                        .font(.custom("Jomhuria-Regular", size: 54 ))
+
                     ScrollView(.vertical, showsIndicators: true) {
                         ForEach(0..<20) { _ in
                             Text("  ...exemplo de jogo na promoção...  ")
@@ -74,10 +76,11 @@ struct MenuView: View {
                                 .scaledToFit()
                                 .background(Color.rose.opacity(100))
                                 .cornerRadius(05)
+                            
                             Spacer()
                         }
                     }
-                    Spacer() // Para garantir que a parte inferior da tela seja preenchida
+                    Spacer() 
                 }
             }
         }
