@@ -19,20 +19,20 @@ struct ContentView: View {
                                            for: .navigationBar)
                 }
                 .tabItem {
-                    Label("Tab 1", systemImage: "house.fill")
+                    Label("Home", systemImage: "house.fill")
                 }
 
                 PesquisaView()
                     .tabItem {
-                        Label("Tab 2", systemImage: "magnifyingglass")
+                        Label("Pesquisa", systemImage: "magnifyingglass")
                     }
                 WishListView()
                     .tabItem {
-                        Label("Tab 2", systemImage: "star.fill")
+                        Label("Desejados", systemImage: "star.fill")
                     }
                 PerfilView()
                     .tabItem {
-                        Label("Tab 2", systemImage: "person.crop.circle.fill")
+                        Label("Perfil", systemImage: "person.crop.circle.fill")
                     }
             }
             .toolbarBackground(.rose, for: .tabBar)
@@ -47,5 +47,3 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-
-
