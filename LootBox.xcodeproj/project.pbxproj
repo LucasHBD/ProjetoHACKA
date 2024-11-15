@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473DB3ED2CE6D0F100F02259 /* UsuarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473DB3EC2CE6D0F100F02259 /* UsuarioView.swift */; };
 		476126892CE2D04A00A50CEE /* LootBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476126882CE2D04A00A50CEE /* LootBoxApp.swift */; };
 		4761268B2CE2D04A00A50CEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761268A2CE2D04A00A50CEE /* ContentView.swift */; };
 		4761268D2CE2D04C00A50CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4761268C2CE2D04C00A50CEE /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		473DB3EC2CE6D0F100F02259 /* UsuarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioView.swift; sourceTree = "<group>"; };
 		476126852CE2D04A00A50CEE /* LootBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LootBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476126882CE2D04A00A50CEE /* LootBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootBoxApp.swift; sourceTree = "<group>"; };
 		4761268A2CE2D04A00A50CEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		4761267C2CE2D04A00A50CEE = {
 			isa = PBXGroup;
 			children = (
+				473DB3EC2CE6D0F100F02259 /* UsuarioView.swift */,
 				A7E14D9D2CE6BA8A00846845 /* FuncaoPost.swift */,
 				476126B02CE5714300A50CEE /* PerfilView.swift */,
 				476126AE2CE56FEC00A50CEE /* MenuView.swift */,
@@ -187,6 +190,7 @@
 				A7E14D942CE6B75C00846845 /* PesquisaView.swift in Sources */,
 				A7E14D9C2CE6B9DE00846845 /* ViewModelRecentes.swift in Sources */,
 				4761269A2CE40E3100A50CEE /* ViewModel.swift in Sources */,
+				473DB3ED2CE6D0F100F02259 /* UsuarioView.swift in Sources */,
 				476126AD2CE56C5F00A50CEE /* WishListView.swift in Sources */,
 				A7E14D9E2CE6BA8A00846845 /* FuncaoPost.swift in Sources */,
 				476126B12CE5714300A50CEE /* PerfilView.swift in Sources */,

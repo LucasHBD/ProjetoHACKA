@@ -1,7 +1,9 @@
+
 import SwiftUI
 
 struct UsuarioView: View {
     @StateObject var model = ViewModel()
+    @State var game: Game = Game(_id: "", name: "", category: "", image: "", description: "", platform: "", link: "")
     
     
     // Exemplo de uma lista de itens para o carrossel
@@ -73,6 +75,16 @@ struct UsuarioView: View {
                                         .font(.title)
                                         .foregroundColor(.white)
                                         .padding(.bottom, 2)
+                                    
+                                    AsyncImage(url: URL(string: "\(view.image!)")){
+                                        image in image.image?.resizable()
+                                            .scaledToFit()
+                                    }.frame( width: 300, height: 150)
+                                        .padding(.leading)
+                                
+                                        
+                                    
+                                    
                                 }
                                     
                                     
@@ -92,8 +104,17 @@ struct UsuarioView: View {
         }.accentColor(.white)
     }
 }
-        
-    #Preview {
-        UsuarioView()
+
+   #Preview {
+       UsuarioView()
     }
+
+
+
+
+
+
+
+
+
     

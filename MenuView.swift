@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MenuView: View {
+    @StateObject private var viewmodel = ViewModel()
     var body: some View {
         ZStack {
             Image("background")
@@ -47,12 +48,15 @@ struct MenuView: View {
                     
                     ScrollView(.horizontal, showsIndicators: true) {
                         HStack(spacing: 3) {
-                            ForEach(0..<10) { _ in
-                                Text("Jogo")
-                                    .frame(width: 100, height: 100)
-                                    .background(Color.rose)
-                                    .cornerRadius(20)
-                                    .padding(5)
+                            ForEach(viewmodel.game, id: \.self) { view in
+                                AsyncImage(url:URL(string:view.image!)){
+                                    image in image
+                                        .resizable()
+                                        .scaledToFit()
+                                        .padding()
+                                } placeholder: {
+                                    ProgressView()
+                                }
                             }
                         }
                     }
@@ -65,19 +69,22 @@ struct MenuView: View {
                         .font(.custom("Jomhuria-Regular", size: 54 ))
                     
                     ScrollView(.vertical, showsIndicators: true) {
-                        ForEach(0..<20) { _ in
-                            Text("  ...exemplo de jogo na promoção...  ")
-                                .foregroundColor(.black)
-                                .scaledToFit()
-                                .background(Color.rose.opacity(100))
-                                .cornerRadius(05)
-                            
-                            Spacer()
+                        ForEach(viewmodel.game, id: \.self) { view in
+                            AsyncImage(url:URL(string:view.image!)){
+                                image in image
+                                    .resizable()
+                                    .scaledToFit()
+                                    .padding()
+                            } placeholder: {
+                                ProgressView()
+                            }
                         }
                     }
                     Spacer()
                 }
             }
+        }.onAppear() {
+            viewmodel.fetch()
         }
     }
 }
