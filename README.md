@@ -3,6 +3,8 @@
 
 ## Nome do Projeto:
 
+LootBox
+
 ## Integrantes:
 
 Anderson Henrique  
