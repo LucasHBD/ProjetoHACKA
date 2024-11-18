@@ -8,33 +8,32 @@ struct PesquisaView: View {
     var body: some View {
         NavigationStack{
             ZStack {
-                // Imagem de fundo
                 Image("background")
                     .resizable()
                     .ignoresSafeArea()
-                VStack{
-                    HStack{
-                        Spacer()
-                        Spacer()
-                        Image("controle")
-                            .padding(.leading)
-                            .padding(.bottom)
-                            .ignoresSafeArea()
-                            .offset(x: 20, y:0)
-                        Spacer()
-                        Image("sino")
-                            .resizable()
-                            .frame(width:30, height: 30)
-                            .ignoresSafeArea()
-                            .padding(.bottom, 50)
-                            .offset(x:20, y: -12.5)
-                        Image("perfil")
-                            .resizable()
-                            .frame(width:30, height: 30)
-                            .ignoresSafeArea()
-                            .padding(.bottom, 50)
-                            .offset(x:30, y: -12.5)
-                        Spacer()
+                VStack {
+                        HStack{
+                            Spacer()
+                            Spacer()
+                            Image("controle")
+                                .padding(.leading, 30)
+                                .padding(.bottom)
+                                .ignoresSafeArea()
+                                .offset(x: 20, y:0)
+                            Spacer()
+                            Image("sino")
+                                .resizable()
+                                .frame(width:30, height: 30)
+                                .ignoresSafeArea()
+                                .padding(.bottom, 50)
+                                .offset(x:20, y: -12.5)
+                            Image("perfil")
+                                .resizable()
+                                .frame(width:30, height: 30)
+                                .ignoresSafeArea()
+                                .padding(.bottom, 50)
+                                .offset(x:30, y: -12.5)
+                            Spacer()
                     }
                     
                     VStack {
