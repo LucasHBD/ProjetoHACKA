@@ -44,33 +44,39 @@ struct WishListView: View {
                             .offset(x:30, y: -12.5)
                         Spacer()
                     }
+                    Spacer()
                     Text("Desejados")
-//                        .font(.title)
                         .font(.custom("Jomhuria-Regular", size: 54 ))
                         .bold()
                         .foregroundStyle(.white)
-                        .offset(x: 0, y: -30)
-                    ScrollView{
-//                        ForEach(viewmodel.game, id: \.id){ g in
-//                            NavigationLink(destinatio: Tela6(game: g)){
-//                                AsyncImage(url: URL(string: "\(g.image)")){ i in
-//                                    i.resizable()
-//                                        .clipShape(Rectangle())
-//                                        .frame(width: 100, height: 100)
-//                                        }
-//                            placeholder: {
-//                                    ProgressView()
-//                                }
-//                            }
-//                        }
-                        Spacer()
-                    }
+                        
+                    ScrollView(.horizontal, showsIndicators: true) {
+                        HStack(spacing: 3) {
+                            ForEach(viewmodel.game, id: \.self) { view in
+                                NavigationLink(destination: PerfilView(game: view)) {
+                                    AsyncImage(url:URL(string:view.image!)){
+                                        image in image
+                                            .resizable()
+                                            .frame(width: 300, height: 150)
+                                            .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                            .scaledToFit()
+                                            .padding()
+                                    } placeholder: {
+                                        ProgressView()
+                                    }
+                                }
+
+                            }
+                        }
+                    }.padding(.bottom, 200)
                 }
             }
+        }.onAppear() {
+            
+            viewmodel.fetch()
         }
     }
 }
-
 
 
 #Preview {

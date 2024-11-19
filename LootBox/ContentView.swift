@@ -30,7 +30,7 @@ struct ContentView: View {
                     .tabItem {
                         Label("Desejados", systemImage: "star.fill")
                     }
-                PerfilView()
+                UsuarioView()
                     .tabItem {
                         Label("Perfil", systemImage: "person.crop.circle.fill")
                     }

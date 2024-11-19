@@ -6,6 +6,7 @@ struct UsuarioView: View {
     @State var game: Game = Game(_id: "", name: "", category: "", image: "", description: "", platform: "", link: "")
     
     
+    
     // Exemplo de uma lista de itens para o carrossel
     
     var body: some View {

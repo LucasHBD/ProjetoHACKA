@@ -64,23 +64,25 @@ struct PesquisaView: View {
                             
                             ForEach(SearchResults, id :\.self){
                                 g in
-
+                                NavigationLink(destination: PerfilView(game: g)){
                                     AsyncImage(url: URL(string: "\(g.image!)")){
                                         image in image.image?.resizable()
                                             .scaledToFit()
                                     }.frame( width: 300, height: 150)
+                                        .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                                         .padding(.leading)
-                                
-
-                                //                            NavigationLink(destination: PerfilView(SearchResults : g)){
-                                //                                Text("\(g.name)")
-                                //                            }
-                            }
+                                    
+                                    
+                                    //                            NavigationLink(destination: PerfilView(SearchResults : g)){
+                                    //                                Text("\(g.name)")
+                                    }
+                                    
+                                }
                         }
                         
                         
                         .frame(height: 250) // Altura do campo de pesquisa
-                        .background(Color.white.opacity(0.7)) // Fundo semitransparente
+                      //  .background(Color.white.opacity(0.7)) // Fundo semitransparente
                         .cornerRadius(5) // Borda arredondada
                         .padding(.top, 20) // Espaço entre o título e a barra de pesquisa
                         
